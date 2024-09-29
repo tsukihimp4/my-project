@@ -1,0 +1,54 @@
+.profil {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    width: 100%;
+    padding-top: 6rem;
+}
+
+.konten-profil {
+    margin-left: 40px;
+}
+
+.konten-profil h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.konten-profil p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+.profil-gambar {
+    text-align: right;
+}
+
+.profil-gambar img {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .profil {
+        flex-direction: column;
+    }
+
+    .profil-gambar img {
+        margin-top: 40px;
+        width: 200px;
+    }
+
+    .konten-profil h1 {
+        font-size: 2rem;
+        color: #333;
+    }
+    
+    .konten-profil p {
+        font-size: 1rem;
+        color: #666;
+        margin-top: 10px;
+    }
+}
