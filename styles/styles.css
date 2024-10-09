@@ -1,7 +1,8 @@
-body {
+* {
 	margin: 0;
 	font-family: Arial, sans-serif;
 	background: #ffffff;
+	scroll-behavior: smooth;
 }
 .nav-link{
 	background: #ffffff;
@@ -22,7 +23,7 @@ body {
 	align-items: center;
 }
  
-.tombol{
+.tombol {
 	display: none;
 	color: rgb(0, 0, 0);
 	font-size: 14pt;			
@@ -60,7 +61,7 @@ body {
 		display:inline-block;
 		position: absolute;
 		top: 64px;
-		background: #f8f8f8;
+		background: #ffffff;
 		padding: 10px 20px;
 		right: 0;
 		left: 0;
@@ -74,4 +75,15 @@ body {
 	.tombol {
 		display: block;
 	}
+}
+
+/* Untuk setiap judul section */
+.title-teks {
+	min-height: 4rem;
+	margin-top: 7rem;
+	margin-bottom: 7rem;
+	text-align: center;
+	font-weight: 600;
+	font-size: 24pt;
+	color: #333;
 }
